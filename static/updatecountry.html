@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Update Country Details</title>
+    <link rel="stylesheet" href="/static/styles/update.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+        <div class="countrydetails" border: 1px solid black>
+        <form name="updatecountryform" id="updatecountryform" class="form-horizontal">
+              <div>
+                <label for="labelcountryid">Country Id: </label>
+                <input type="text"  data-type="text" name="countryid" value="" aria-required="true" placeholder="Country Id" aria-label="countryId" id="countryid" required>
+              </div>
+              <div>
+                <label for="labelcountryname">Country Name: </label>
+                <input type="text"  data-type="text" name="countryname" value="" aria-required="true" placeholder="Country Name" aria-label="countryName" id="countryname" required>
+              </div>
+            <div class="divider"/>
+            <button type="submit" class="btn btn-default" id="updatecountrybtn">Update Country</button> 
+          </form>
+        </div>
+<script src="/static/libs/updatecountry.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Delete Institution Details</title>
+    <link rel="stylesheet" href="/static/styles/update.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="institutiondetails" border: 1px solid black>
+    <form name="deleteinstitutionform" id="deleteinstitutionform" class="form-horizontal">
+          <div>
+            <label for="labelinstitutionid">Institution Id: </label>
+            <input type="text"  data-type="text" name="institutionid" value="" aria-required="true" placeholder="Institution Id" aria-label="InstitutionId" id="institutionid" required>
+          </div>
+        <div class="divider"/>
+        <button type="submit" class="btn btn-default" id="deleteinstitutionbtn">Delete Institution</button> 
+      </form>
+    </div>
+<script src="/static/libs/deleteinstitution.js"></script>
+  </body>
+</html>

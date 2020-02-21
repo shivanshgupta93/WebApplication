@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Update Institution Details</title>
+    <link rel="stylesheet" href="/static/styles/update.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="institutiondetails" border: 1px solid black>
+    <form name="updateinstitutionform" id="updateinstitutionform" class="form-horizontal">
+          <div>
+            <label for="labelinstitutionid">Institution Id: </label>
+            <input type="text"  data-type="text" name="institutionid" value="" aria-required="true" placeholder="Institution Id" aria-label="InstitutionId" id="institutionid" required>
+          </div>
+          <div>
+            <label for="labelinstitutionname">Institution Name: </label>
+            <input type="text"  data-type="text" name="institutionname" value="" aria-required="true" placeholder="Institution Name" aria-label="InstitutionName" id="institutionname" required>
+          </div>
+          <div>
+            <label for="labelcityid">City Id: </label>
+            <input type="text"  data-type="text" name="cityid" value="" aria-required="true" placeholder="City Id" aria-label="CityId" id="cityid" required>
+          </div>
+          <div>
+            <label for="labelcityname">City Name: </label>
+            <input type="text"  data-type="text" name="cityname" value="" aria-required="true" placeholder="City Name" aria-label="CityName" id="cityname" required>
+          </div>
+          <div>
+            <label for="labelcountryid">Country Id: </label>
+            <input type="text"  data-type="text" name="inscountryid" value="" aria-required="true" placeholder="Country Id" aria-label="countryId" id="inscountryid" required>
+          </div>
+          <div>
+            <label for="labelcoursecount">Course Count: </label>
+            <input type="text"  data-type="text" name="coursecount" value="" aria-required="true" placeholder="Course Count" aria-label="coursecount" id="coursecount" required>
+          </div>
+        <div class="divider"/>
+        <button type="submit" class="btn btn-default" id="updateinstitutionbtn">Update Institution</button> 
+      </form>
+    </div>
+<script src="/static/libs/updateinstitution.js"></script>
+  </body>
+</html>

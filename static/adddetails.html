@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Add Institution Details</title>
+    <link rel="stylesheet" href="/static/styles/add.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+	<form name="addform" id="addform" class="form-horizontal">
+        <div class="institutiondetails" border: 1px solid black>
+          <div>
+            <label for="labelinstitutionid">Institution Id: </label>
+            <input type="text"  data-type="text" name="institutionid" value="" aria-required="true" placeholder="Institution Id" aria-label="InstitutionId" id="institutionid" required>
+          </div>
+          <div>
+            <label for="labelinstitutionname">Institution Name: </label>
+            <input type="text"  data-type="text" name="institutionname" value="" aria-required="true" placeholder="Institution Name" aria-label="InstitutionName" id="institutionname" required>
+          </div>
+          <div>
+            <label for="labelcityid">City Id: </label>
+            <input type="text"  data-type="text" name="cityid" value="" aria-required="true" placeholder="City Id" aria-label="CityId" id="cityid" required>
+          </div>
+          <div>
+            <label for="labelcityname">City Name: </label>
+            <input type="text"  data-type="text" name="cityname" value="" aria-required="true" placeholder="City Name" aria-label="CityName" id="cityname" required>
+          </div>
+          <div>
+            <label for="labelcountryid">Country Id: </label>
+            <input type="text"  data-type="text" name="countryid" value="" aria-required="true" placeholder="Country Id" aria-label="countryId" id="countryid" required>
+          </div>
+          <div>
+            <label for="labelcountryname">Country Name: </label>
+            <input type="text"  data-type="text" name="countryname" value="" aria-required="true" placeholder="Country Name" aria-label="countryName" id="countryname" required>
+          </div>
+          <div>
+            <label for="labelcoursecount">Course Count: </label>
+            <input type="text"  data-type="text" name="coursecount" value="" aria-required="true" placeholder="Course Count" aria-label="coursecount" id="coursecount" required>
+          </div>
+        </div>
+        <div class="divider"/>
+        <button type="submit" class="btn btn-default" id="adddetails">Add Details</button> 
+      </form>
+<script src="/static/libs/add.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Institution Details</title>
+    <link rel="stylesheet" href="/static/styles/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+	<h1>Institution Details</h1>
+  <h3>Add, Delete or Update, Click below:</h3>
+  <form name = "detailsamendments">
+    <input type="submit" value="Add" width="100" height="100" onclick="window.open('/static/adddetails.html')" />
+    <input type="submit" value="Update Institution" width="250" height="100" onclick="window.open('/static/updateinstitution.html')"/>
+    <input type="submit" value="Update Country" width="100" height="100" onclick="window.open('/static/updatecountry.html')"/>
+    <input type="submit" value="Delete Institution" width="250" height="100" onclick="window.open('/static/deleteinstitution.html')"/>
+    <input type="submit" value="Delete Country" width="100" height="100" onclick="window.open('/static/deletecountry.html')"/>
+  </form>
+<div>
+    <table style="width:100%" id="detailstable">
+      <tr>
+      <th>Institution Id</th>
+      <th>Institution Name</th>
+      <th>City Id</th>
+      <th>City Name</th>
+      <th>Country ID</th>
+      <th>Country Name</th>
+      <th>Course Count</th>
+      </tr>
+    </table>
+</div>
+<script src="/static/libs/app.js"></script>
+  </body>
+</html>

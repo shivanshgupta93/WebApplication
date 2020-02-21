@@ -1,0 +1,15 @@
+.institutiondetails {
+    border: 1px solid black;
+  }
+  .institutiondetails input{
+    margin-top:16px;
+    margin-bottom:16px;
+  }
+  
+  input {
+    width: 8%;
+    height:20%;
+  }
+  .submit {
+      margin-top:16px;
+  }

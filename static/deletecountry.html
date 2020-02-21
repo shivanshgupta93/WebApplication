@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Delete Country Details</title>
+    <link rel="stylesheet" href="/static/styles/update.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="countrydetails" border: 1px solid black>
+        <form name="deletecountryform" id="deletecountryform" class="form-horizontal">
+              <div>
+                <label for="labelcountryid">Country Id: </label>
+                <input type="text"  data-type="text" name="countryid" value="" aria-required="true" placeholder="Country Id" aria-label="countryId" id="countryid" required>
+              </div>
+            <div class="divider"/>
+            <button type="submit" class="btn btn-default" id="deletecountrybtn">Delete Country</button> 
+          </form>
+        </div>
+<script src="/static/libs/deletecountry.js"></script>
+  </body>
+</html>
